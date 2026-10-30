@@ -10,3 +10,12 @@
 @import "./css/styles/style.css";
 @import "./css/colors/scheme-01.css";
 @import "./css/styles/coloring.css";
+@import "aos/dist/aos.css";
+
+html:not(.no-js) [data-aos="fade-up"].aos-fade-up-quarter {
+  transform: translate3d(0, 25px, 0);
+}
+
+html:not(.no-js) [data-aos="zoom-in"].aos-zoom-in-quarter {
+  transform: scale(0.9);
+}
