@@ -13620,6 +13620,21 @@ a.read_more i {
   padding-left: 70px;
 }
 
+.item_info .item-author-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item_info .item-author-entry h6 {
+  margin-bottom: 10px;
+}
+
+.item_info .item_author {
+  position: relative;
+  min-height: 50px;
+}
+
 .nft__item {
   position: relative;
   padding: 20px;
